@@ -1,16 +1,16 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-const generateMarkdown = require("./utils/generateMarkdown")
+const generateREADME = require("./utils/generateREADME")
 
 const questions = [
     {
         type: "input",
-        message: "What is your project title?",
+        message: "What is your project's title?",
         name: "title"
     },
     {
         type: "input",
-        message: "Please write a short description of your project.",
+        message: "Write a short description of your project.",
         name: "description"
     },
     {
@@ -32,12 +32,12 @@ const questions = [
     },
     {
         type: "input",
-        message: "What does the user need to know about contributing to the repo?",
+        message: "What does the user need to know about contributing to the repository?",
         name: "contributing"
     },
     {
         type: "input",
-        message: "What command should be run to run tests?",
+        message: "What command should be used to run tests?",
         name: "test",
         default: "npm test"
     },
@@ -56,7 +56,7 @@ const questions = [
 // function to write README file
 const writeToFile = (fileName, data) => {
 
-    const content = generateMarkdown(data);
+    const content = generateREADME(data);
 
     fs.writeFile(fileName, content, (err) => {
 
