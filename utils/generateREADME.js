@@ -18,7 +18,7 @@ ${data.description}
 
 ## Installation
 
-${data.installation}
+The installation required includes: ${data.installation}
 
 ## Usage
 
@@ -26,7 +26,7 @@ ${data.usage}
 
 ## License
 
-${data.license}
+The project's license is: ${data.license}
 
 ## Contributing
 

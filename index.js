@@ -72,7 +72,7 @@ const promptQuestions = () => {
         .prompt(questions)
         .then(data => {
 
-            writeToFile("README_OUTPUT.md", data);
+            writeToFile("./output/README_OUTPUT.md", data);
 
         })
         .then(() => console.log("README file created successfully."))
