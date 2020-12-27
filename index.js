@@ -1,4 +1,5 @@
 const inquirer = require("inquirer");
+const generateMarkdown = require("./utils/generateMarkdown")
 
 const questions = [
     {
@@ -60,14 +61,16 @@ function writeToFile(fileName, data) {
 function init() {
 
     inquirer
-    .prompt(questions)
-    .then(response => {
+        .prompt(questions)
+        .then(response => {
 
-        const content = generateMarkdown(response);
+            console.log(response);
 
-    })
+            const content = generateMarkdown(response);
 
-    }
+        });
+
+}
 
 // function call to initialize program
 init();
