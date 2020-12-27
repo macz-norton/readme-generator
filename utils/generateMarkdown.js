@@ -18,6 +18,30 @@ function generateMarkdown(data) {
   * [Tests](#tests)
   * [Questions](#questions)
 
+  ## Installation
+
+  ${data.installation}
+
+  ## Usage
+
+  ${data.usage}
+
+  ## License
+  
+  ${data.license}
+
+  ## Contributing
+
+  ${data.contributing}
+
+  ## Tests
+
+  ${data.tests}
+
+  ## Questions
+
+  ${data.questions}
+  
 `;
 }
 
@@ -30,12 +54,12 @@ function generateDescription ( description ) {
 
 }
 
-console.log(generateMarkdown){
+console.log(generateMarkdown({
 
   title: "Testing",
   description: "Testing description"
 
-}
+}));
 
 
 module.exports = generateMarkdown;
