@@ -40,8 +40,9 @@ function generateMarkdown(data) {
 
   ## Questions
 
-  ${data.questions}
-  
+  ${data.email}
+  ${data.GitHub}
+
 `;
 }
 

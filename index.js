@@ -1,39 +1,54 @@
 const inquirer = require("inquirer");
 
-// array of questions for user
 const questions = [
     {
-        message: "What is your GitHub username?"
+        type: "input",
+        message: "What is your GitHub username?",
+        name: "GitHub"
     },
     {
-        message: "What is your email address?"
+        type: "input", 
+        message: "What is your email address?",
+        name: "email"
     },
     {
-        message: "What is your project name?"
+        type: "input",
+        message: "What is your project title?",
+        name: "title"
     },
     {
-        message: "Please write a short description of your project."
+        type: "input",
+        message: "Please write a short description of your project.",
+        name: "description"
+    },
+    {
+        type: "input",
+        message: "What command should be run to install dependencies?",
+        name: "installation",
+        default: "npm i"
+    },
+    {
+        type: "input",
+        message: "What does the user need to know about using the repo?",
+        name: "usage"
     },
     {
         type: "list",
-        message: "What type of license should your project have?"
-        MIT, APACHE 2.0, GPL 3.0, BSD 3, None
-
+        message: "What type of license should your project have?",
+        name: "license",
+        choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]
     },
     {
-        message: "What command should be run to install dependencies?"
-        // add default response of npm i
+        type: "input",
+        message: "What does the user need to know about contributing to the repo?",
+        name: "contributing"
     },
     {
-        message: "What command should be run to run tests?"
-        // add default response of npm test
-    },
-    {
-        message: "What does the user need to know about using the repo?"
-    },
-    {
-        message: "What does the user need to know about contributing to the repo?"
-    },
+        type: "input",
+        message: "What command should be run to run tests?",
+        name: "test",
+        default: "npm test"
+    }
 ];
 
 // function to write README file
