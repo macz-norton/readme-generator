@@ -1,7 +1,11 @@
+// Require npm packages
 const inquirer = require("inquirer");
 const fs = require("fs");
+
+// Require generateREADME module
 const generateREADME = require("./utils/generateREADME")
 
+// Inquirer questions object
 const questions = [
     {
         type: "input",
@@ -53,7 +57,7 @@ const questions = [
     }
 ];
 
-// function to write README file
+// Function to write README file
 const writeToFile = (fileName, data) => {
 
     const content = generateREADME(data);
@@ -65,11 +69,12 @@ const writeToFile = (fileName, data) => {
     });
 }
 
-// function to initialize program
+// Function to prompt Inquirer questions
 const promptQuestions = () => {
 
     inquirer
         .prompt(questions)
+        // Promise to `writeToFile`
         .then(data => {
 
             writeToFile("./output/README_OUTPUT.md", data);
@@ -79,5 +84,5 @@ const promptQuestions = () => {
         .catch((err) => console.error(err))
 }
 
-// function call to initialize program
+// Function called to initialize program
 promptQuestions();

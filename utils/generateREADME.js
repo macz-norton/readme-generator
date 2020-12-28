@@ -1,4 +1,4 @@
-// function to generate markdown for README
+// Function to generate markdown for README
 const generateREADME = (data) => `# ${data.title}
 
 ${addLicenseBadge(data.license)}
@@ -42,6 +42,7 @@ For additional questions, please reach me via email at [${data.email}](mailto:${
 
 `;
 
+// Function with switch statement to return information based on license
 chooseLicense = (license) => {
   switch (license) {
       case "MIT":
@@ -59,6 +60,7 @@ chooseLicense = (license) => {
     }
 }
 
+// Function with switch statement to return license badge
 addLicenseBadge = (license) => {
   switch (license) {
       case "MIT":
@@ -76,4 +78,5 @@ addLicenseBadge = (license) => {
     }
 }
 
+// Export generateREADME for use in index.js file
 module.exports = generateREADME;
