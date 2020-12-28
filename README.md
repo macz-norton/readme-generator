@@ -33,6 +33,7 @@ You will be prompted with questions and your answers will be used to build the R
 * Link to the repository: [https://github.com/macz-norton/readme-generator](https://github.com/macz-norton/readme-generator)
 * Video that demonstrates the application's functionality:
 ![video walkthrough](https://share.getcloudapp.com/llun7Elr)
+* Inquirer prompt questions in the user's terminal: ![Inquirer terminal prompts](https://user-images.githubusercontent.com/71162422/103185492-83857d00-4871-11eb-8bc3-d6acd1b7dbf6.png)
 
 ## Tests
 
