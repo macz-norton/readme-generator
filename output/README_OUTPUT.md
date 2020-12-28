@@ -33,7 +33,7 @@ To contribute to this project, reach out to the project owner via email.
 
 ## Tests
 
-undefined
+npm test
 
 ## Questions
 
