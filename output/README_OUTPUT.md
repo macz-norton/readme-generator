@@ -1,10 +1,10 @@
-# jkldsa
+# djksl
 
-![MIT](https://img.shields.io/github/MIT
+[![Mozilla Public 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
 ## Description
 
-asdjkl
+jkl
 
 ## Table of Contents
   
@@ -17,19 +17,19 @@ asdjkl
 
 ## Installation
 
-The installation required includes: mklds
+The installation required includes: jkl
 
 ## Usage
 
-asdjkfl
+j
 
 ## License
 
-[MIT License](https://choosealicense.com/licenses/mit/)
+[Mozilla Public 2.0](https://choosealicense.com/licenses/mpl-2.0/)
 
 ## Contributing
 
-jkdls
+djksl
 
 ## Tests
 
@@ -37,5 +37,5 @@ undefined
 
 ## Questions
 
-For additional questions, please reach me via email at [j](mailto:j) or GitHub at [https://github.com/j](https://github.com/j)
+For additional questions, please reach me via email at [jl](mailto:jl) or GitHub at [https://github.com/fjdkl](https://github.com/fjdkl)
 
