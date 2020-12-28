@@ -32,7 +32,7 @@ To run the command-line application following installation, run `node index.js` 
 You will be prompted with questions and your answers will be used to build the README_OUTPUT.md generated in the `output` folder:
 * Link to the repository: [https://github.com/macz-norton/readme-generator](https://github.com/macz-norton/readme-generator)
 * Video that demonstrates the application's functionality:
-![](URL)
+![video walkthrough]()
 
 ## Tests
 
