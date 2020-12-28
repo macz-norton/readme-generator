@@ -1,7 +1,7 @@
 // function to generate markdown for README
 const generateREADME = (data) => `# ${data.title}
 
-${data.description}
+![${data.license}](https://img.shields.io/github/${data.license}
 
 ## Description
 
@@ -26,7 +26,7 @@ ${data.usage}
 
 ## License
 
-The project's license is: ${data.license}
+${data.license}
 
 ## Contributing
 
@@ -38,8 +38,7 @@ ${data.tests}
 
 ## Questions
 
-Email: ${data.email}
-GitHub: ${data.GitHub}
+For additional questions, please reach me via email at [${data.email}](mailto:${data.email}) or GitHub at [https://github.com/${data.GitHub}](https://github.com/${data.GitHub})
 
 `;
 
