@@ -3,7 +3,7 @@
 
 ## Description
 
-The readme generator is a command-line application that dynamically generate a README.md file from a user's input using the Inquirer package.
+The readme generator is a command-line application that dynamically generates a README.md file from a user's input using the Inquirer package.
 
 ```
 AS A developer
@@ -30,9 +30,7 @@ SO THAT I can quickly create a professional README for a new project
 To run the command-line application following installation, run `node index.js` in your terminal.
 
 You will be prompted with questions and your answers will be used to build the README_OUTPUT.md generated in the `output` folder:
-* Link to the repository: [https://github.com/macz-norton/readme-generator](https://github.com/macz-norton/readme-generator)
-* Video that demonstrates the application's functionality:
-![video walkthrough](https://share.getcloudapp.com/llun7Elr)
+* Video that demonstrates the application's functionality: [watch video](https://share.getcloudapp.com/llun7Elr)
 * Inquirer prompt questions in the user's terminal: ![Inquirer terminal prompts](https://user-images.githubusercontent.com/71162422/103185492-83857d00-4871-11eb-8bc3-d6acd1b7dbf6.png)
 
 ## Tests
@@ -47,8 +45,8 @@ You will be prompted with questions and your answers will be used to build the R
 
 * [Inquirer.js npm package](https://www.npmjs.com/package/inquirer)
 * [Node.js](https://nodejs.org/en/)
-* [Choose A License, GitHub, Inc.](https://choosealicense.com/)
-* [Licensing a repository, GitHub, Inc.](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/licensing-a-repository#choosing-the-right-license)
+* [*Choose A License*, GitHub, Inc.](https://choosealicense.com/)
+* [*Licensing a repository*, GitHub, Inc.](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/licensing-a-repository#choosing-the-right-license)
 * [Markdown License badges](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
 
 ## License
